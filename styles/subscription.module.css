@@ -1,0 +1,88 @@
+
+
+.Subscription{
+    width: 100%;
+    margin-block: 2rem;
+}
+
+.Subscription_box{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.Subscription_box_info{
+    text-align: center;
+    line-height: 0;
+}
+
+.Subscription_box_info span{
+    font-size: 2rem;
+    line-height: .5;
+    font-weight: 900;
+}
+
+.Subscription_box_info p{
+    padding: 2rem;
+    font-size: 1.6rem;
+    line-height: .5;
+}
+
+
+.Subscription_box_box{
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 2rem;
+    padding: 5rem;
+    justify-content: space-between;
+}
+
+
+
+
+@media screen and (max-width: 35em) {
+
+    .Subscription{
+        margin-block: 4rem;
+    }
+
+    .Subscription_box{
+        width: 90%;
+    }
+
+    .Subscription_box_info h1{
+        font-size: 2rem;
+
+    }
+
+    .Subscription_box_info p{
+        font-size: 1rem;
+    }
+
+    .Subscription_box_box{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media screen and (min-width: 455px) and (min-width: 1024px) {
+    .Subscription{
+        margin-block: 4rem;
+    }
+
+    .Subscription_box{
+        width: 90%;
+    }
+
+    .Subscription_box_info h1{
+        font-size: 2rem;
+
+    }
+
+    .Subscription_box_info p{
+        font-size: 1rem;
+    }
+
+    .Subscription_box_box{
+        grid-template-columns: 1fr 1fr;
+    }
+}
